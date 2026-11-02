@@ -13,7 +13,7 @@ body {
     align-items: center; 
     height: 100vh; 
     margin: 0; 
-    background: linear-gradient(270deg, #d63384, #f8c8dc, #e83e8c); /* Three-color gradient */ 
+    background: linear-gradient(270deg, #1e88e5, #64b5f6, #90caf9); /* Three-color gradient */ 
     background-size: 600% 600%; /* Adjusted size for better visibility */ 
     animation: gradientAnimation 15s ease infinite; /* Animation effect */ 
     color: #ffffff; 
@@ -31,18 +31,18 @@ body {
     width: 350px; 
     height: 480px; /* Fixed height for square-like shape */ 
     padding: 25px; 
-    background-color: #ffffff; 
+    background-color: #89c0f0; 
     border-radius: 10px; 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
     text-align: center; 
-    color: #282c34; 
+    color: #12345a; 
     position: relative; /* To layer properly */ 
     z-index: 1; /* Ensure it appears above the gradient */ 
 } 
   
 .form-container h2 { 
     margin-bottom: 20px; 
-    color: #d63384; 
+    color: #ffffff; 
     font-size: 50px; 
 } 
   
@@ -51,7 +51,7 @@ label {
     display: block; 
     text-align: left; 
     margin: 5px 0 5px; 
-    color: #282c34; 
+    color: #1e88e5 
     font-size: 15px; 
 } 
   
@@ -60,17 +60,18 @@ input[type="text"], input[type="password"] {
     width: 100%; 
     padding: 10px; 
     margin-bottom: 10px; 
-    border: 1px solid #ddd; 
+    border: 1px solid #12345a; 
     border-radius: 5px; 
     outline: none; 
     font-size: 16px; 
 } 
-
+  
+ 
 /* Button Styling */ 
 button { 
     width: 100%; 
     padding: 12px; 
-    background-color: #d63384; 
+    background-color: #1e88e5; 
     color: #ffffff; 
     border: none; 
     border-radius: 5px; 
@@ -78,16 +79,16 @@ button {
     font-size: 16px; 
     font-family:'Trebuchet MS', sans-serif; 
     transition: background-color 0.3s; 
-    margin: 5px 0; 
+    margin: 5px; 
 } 
   
 button:hover { 
-    background-color: #b02a6b; 
+    background-color: #1e88e5; 
 } 
   
 /* Error Message Styling */ 
 #errorMessage { 
-    color: #d63384; 
+    color: #12345a; 
     margin-top: 5px; 
     font-size: 14px; 
 } 
@@ -107,3 +108,4 @@ button:hover {
 .show-password input[type="checkbox"] { 
     margin-right: 5px; /* Space between checkbox and label */ 
 } 
+ 

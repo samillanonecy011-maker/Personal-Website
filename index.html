@@ -2,7 +2,7 @@
 <html lang="en"> 
 <head> 
     <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=0.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Home - Personal Website</title> 
     <link rel="stylesheet" href="style.css"> 
   
@@ -26,7 +26,8 @@
   
             <li><a href="gallery.html">GALLERY</a></li> 
             <li><a href="contact.html">CONTACT</a></li> 
-            <a href="javascript:void(0);" class="logout-button" onclick="confirmLogout()">LOG OUT</a> 
+            <a href="javascript:void(0);" class="logout-button" onclick="confirmLogout()">LOG 
+OUT</a> 
   
         </ul> 
          
@@ -36,62 +37,66 @@
     <div class="slider"> 
         <div class="slides"> 
             <div class="slide"> 
-                <img src="images/1.jpg" alt="Image 1"> 
-                <div class="text-overlay"><h1>Welcome to my Webpage!</h1></div> 
+                <img src="images/blue 1.jpg" alt="Image 1"> 
+                <div class="text-overlay"><h1> Welcome to my World! </h1></div> 
             </div> 
             <div class="slide"> 
-                <img src="images/2.webp" alt="Image 2"> 
-                <div class="text-overlay"><h1>No thoughts, just tulips!</h1></div> 
+                <img src="images/blue 2.jpg" alt="Image 2"> 
+                <div class="text-overlay"><h1> Get to know me! </h1></div> 
             </div> 
             <div class="slide"> 
-                <img src="images/3.jpg" alt="Image 3"> 
-                <div class="text-overlay"><h1>Just a girl and her tulips!</h1></div> 
+                <img src="images/blue 3.jpg" alt="Image 3"> 
+                <div class="text-overlay"><h1> My Journey, My Dreams! </h1></div> 
             </div> 
         </div> 
     </div> 
     <section id="drop"> 
   
         <h2>Fun Facts About Me</h2> 
-        <p>Welcome to my Fun Facts About Me! Here, you'll get a glimpse into my passions,interests, and the little quirks that make me who I am. </p> 
+        <p>Welcome to my Fun Facts About Me! Here, you'll get a glimpse into my passions, 
+interests, and the little quirks that make me who I am. </p> 
      
+  
+  
         <div class="funfact-container"> 
             <div class="funfact-card"> 
                 <div class="funfact-inner"> 
                     <div class="funfact-front"> 
-                        <p>Certified Crammer!</p> 
+                        <p>Debugging Life!</p> 
                     </div> 
                     <div class="funfact-back"> 
-                        <p>Can finish a project the night before it's due!</p> 
+                        <p>I can fix code errors, but I'm still figuring out life!</p> 
+ 
                     </div> 
                 </div> 
             </div> 
             <div class="funfact-card"> 
                 <div class="funfact-inner"> 
                     <div class="funfact-front"> 
-                        <p>Coffee Explorer!</p> 
+                        <p>Creative Minds!</p> 
                     </div> 
                     <div class="funfact-back"> 
-                        <p>Powered by 3-in-1 and late night reviews!</p> 
+                        <p>I enjoy creating websites and exploring new ideas.!</p> 
                     </div> 
                 </div> 
             </div> 
             <div class="funfact-card"> 
                 <div class="funfact-inner"> 
                     <div class="funfact-front"> 
-                        <p>Playlist for every Mood! </p> 
+                        <p>Sleep is Life! </p> 
                     </div> 
                     <div class="funfact-back"> 
-                        <p>Study, Chill and breakdown playlist!</p> 
+                        <p>My dreams are big but my sleep schedule is a mess.!</p> 
                     </div> 
                 </div> 
             </div> 
             <div class="funfact-card"> 
                 <div class="funfact-inner"> 
                     <div class="funfact-front"> 
-                        <p>Deadline Chaser! </p> 
+                        <p>Future Success! </p> 
                     </div> 
                     <div class="funfact-back"> 
-                        <p>Thrives under pressure!</p> 
+                        <p>I may not there yet, but I'm working on it everyday.!</p> 
                     </div> 
                 </div> 
             </div> 
@@ -105,24 +110,22 @@
      
     <div class="container"> 
         <div class="image-section"> 
-            <img src="images/Necy (2).png" alt="Ton's Image"> 
+            <img src="images/angel.jpg" alt="Angel's Image"> 
         </div> 
         <div class="quote-section"> 
-            <h1>Hi, I'm Necy!</h1> 
-            <p>I'm a Bachelor of Science in Information Systems student passionate about technology, web development and digital innovation.
-                I'm currently developing my skills in programming, web design, information systems and problem-solving. I enjoy creating
-                projects that combine creativity and technology. My goal is to become a skilled Information Systems professional and use
-                technology to create useful solutions.
-
-            </p> 
+            <h1>Hi, I'm Angel!</h1> 
+            <p>I'm an Information System student, I am eager to enhance my knowledge and skills in information technology and information systems. This subject allows me to explore how technology
+                helps organize information, improve communication, and solve problems in different fields. Through continuous learning
+                and practice, I hope to gain valuable skills that will help me succeed in my studies and future career.
+                Always eager to learn and motivated!</p> 
             <blockquote> 
-                "Learn today, create tomorrow and make a difference through technology." 
+                "Success in technology begins with curiosity, grows through learning, and shines through innovation." 
             </blockquote> 
         </div> 
     </div> 
      
     <footer> 
-        <p>&copy; 2026 Necy S. Samillano. All rights reserved.</p> 
+        <p>&copy; 2026 Angel U. Estares. All rights reserved.</p> 
     </footer> 
     <div class="footer-divider"></div> <!-- Orange line --> 
   
@@ -135,6 +138,8 @@
     <script> 
         const slides = document.querySelector('.slides'); 
         let index = 0; 
+
+  
         function showNextSlide() { 
             index = (index + 1) % 3; 
             slides.style.transform = 'translateX(' + (-index * 100) + '%)'; 

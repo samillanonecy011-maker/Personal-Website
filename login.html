@@ -23,7 +23,8 @@
             </div> 
   
             <!-- Confirm password field for sign-up form --> 
-            <label for="confirmPassword" id="confirmPasswordLabel" style="display: none;">Confirm Password</label> 
+            <label for="confirmPassword" id="confirmPasswordLabel" style="display: none;">Confirm 
+Password</label> 
             <input type="password" id="confirmPassword" style="display: none;"> 
              
             <!-- Password match message --> 
@@ -33,7 +34,8 @@
             <p id="errorMessage"></p> 
   
             <!-- Toggle link to switch between forms --> 
-            <p id="toggleText">Don't have an account? <a href="#" onclick="toggleForm()">Sign Up</a></p> 
+            <p id="toggleText">Don't have an account? <a href="#" onclick="toggleForm()">Sign 
+Up</a></p> 
         </form> 
     </div> 
     <!-- Embedded JavaScript --> 
@@ -63,6 +65,7 @@
     } else { 
         // Switch to Login form 
         formTitle.textContent = 'Login'; 
+ 
         confirmPassword.style.display = 'none'; 
         confirmPasswordLabel.style.display = 'none'; 
         submitButton.textContent = 'Login'; 

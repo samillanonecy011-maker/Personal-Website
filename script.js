@@ -33,3 +33,4 @@ function changeImage(direction) {
 images.forEach((img, index) => { 
     img.addEventListener('click', () => showImage(index)); 
 }); 
+ 
